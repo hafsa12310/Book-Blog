@@ -1,0 +1,96 @@
+.navbar {
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:20px 0;
+    margin: 20px auto;
+    width: 80%;
+}
+
+.logo {
+
+    font-size: 20px;
+    font-weight: 700;
+
+}
+
+.activeStyle {
+
+    color:black;
+    font-size:22px;
+    font-weight:bold;
+
+}
+
+.inactiveStyle {
+
+    text-decoration: none;
+    font-size:22px;
+    font-weight:bold;
+
+}
+
+.loginbutton {
+
+    border: none;
+    outline:none;
+    border-radius: 10px;
+    padding:10px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: large;
+    text-decoration: none ;
+
+}
+
+.loginbutton:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+
+.signupbutton {
+
+    margin-left:10px ;
+    background-color:crimson ;
+    border:none ;
+    color:black ;
+    outline: none ;
+    border-radius: 10px ;
+    padding: 10px 15px ;
+    cursor: pointer ;
+    font-weight: bold ;
+    font-size: large ;
+
+}
+
+.signupbutton:hover {
+    background-color: #1a682c; /* Darker green on hover */
+  }
+
+.signoutbutton {
+
+    margin-left:10px ;
+    background-color:rgb(0, 0, 0) ;
+    border:none ;
+    color:#0056b3 ;
+    outline: none ;
+    border-radius: 10px ;
+    padding: 10px 15px ;
+    cursor: pointer ;
+    font-weight: bold ;
+    font-size: large ;
+}
+
+.signoutbutton:hover {
+    background-color: white; /* Darker blue on hover */
+  }
+
+
+.separator {
+
+    height: 3px;
+    margin-top: 5px;
+    background: linear-gradient(to right, #000, #555, #000);
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2); /* Adjust the shadow properties as needed */
+
+}

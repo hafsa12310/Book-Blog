@@ -87,7 +87,7 @@ const blogcontrol = { //`storage/${imagePath}`
 
         try { //no validation reuqired since we are not sending any data in the request body
 
-            const blogs = await Blog.find;
+            const blogs = await Blog.find();
 
             const blogDTO  = [];
 
@@ -163,7 +163,7 @@ const blogcontrol = { //`storage/${imagePath}`
         let blog;
 
         try {
-            blog = Blog.findOne({_id:blogId}); // that blog needed whose id matches with the the given blog id
+            blog = await Blog.findOne({_id:blogId}); // that blog needed whose id matches with the the given blog id
         }
 
         catch (error) {

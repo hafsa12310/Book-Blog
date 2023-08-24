@@ -6,10 +6,20 @@ const errorhandle = require ('./middleware/errorhandle');
 const cookie = require ('cookie-parser');
 const app = express ();
 
-//const PORT = PORT;
-app.use(cookie());
+const cors= require('cors');
+const cookieParser = require('cookie-parser');
+const corsOptions = {
+    credentials: true,
+    origin:['http://localhost:3000'] ,
 
-app.use(express.json());
+};
+
+//const PORT = PORT;
+app.use(cookieParser());
+
+app.use(cors(corsOptions));
+
+app.use(express.json({limit:'50mb'}));
 
 app.use (router);
 

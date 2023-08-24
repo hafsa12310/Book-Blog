@@ -1,0 +1,66 @@
+.signupwrapper {
+ 
+    margin :20px auto;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.signupheader {
+
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    width: inherit;
+    text-align: center;
+    margin-bottom: 20px;
+
+
+}
+
+.signuppagebutton {
+
+    background-color: black;
+    color: white;
+    border: none;
+    outline: none;
+    width: 30%;
+    border-radius: 10px;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+    margin-top: 30px;
+
+
+}
+
+.signuppagebutton:disabled {
+
+    background-color: rgb(122, 118, 118);
+}
+
+.log {
+
+    margin-top: 50px;
+    margin-left: 10px;
+    color: white;
+    background-color:black;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.ermsg {
+
+    color: black;
+    font-weight: bold;
+    margin: 20px 0;
+    font-size: 20px;
+
+
+}
